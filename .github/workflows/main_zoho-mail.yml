@@ -1,3 +1,11 @@
+name: Build and deploy Node.js app to Azure Web App - zoho-mail
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
